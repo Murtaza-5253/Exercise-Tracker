@@ -13,7 +13,7 @@ function App() {
     <div className="container">
       <Routes>
         <Route
-          path="/"
+          path="/exercise-tracker"
           element={
             <div>
               <Navbar />
@@ -28,7 +28,6 @@ function App() {
           <Route path="create" element={<CreateExcercise />} />
           <Route path="user" element={<CreateUser />} />
         </Route>
-        <Route path="*" element={<></>}/>
       </Routes>
     </div>
   );

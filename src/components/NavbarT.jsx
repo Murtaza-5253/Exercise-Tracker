@@ -12,9 +12,9 @@ export default function NavbarT() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-            <Nav.Link className="nav-item nav-link" href="/">Excercises</Nav.Link>
-            <Nav.Link className="nav-item nav-link" href="/create" >CreateExcercise</Nav.Link>
-            <Nav.Link className="nav-item nav-link" href="/user" >CreateUser</Nav.Link>
+            <Nav.Link className="nav-item nav-link" href="/exercise-tracker/">Excercises</Nav.Link>
+            <Nav.Link className="nav-item nav-link" href="/exercise-tracker/create" >CreateExcercise</Nav.Link>
+            <Nav.Link className="nav-item nav-link" href="/exercise-tracker/user" >CreateUser</Nav.Link>
           </Nav>
           </Navbar.Collapse>
         </Container>
